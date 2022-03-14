@@ -1,0 +1,19 @@
+{
+  "name": "react-hook-event",
+  "version": "1.0.0",
+  "description": "Utility hooks for event dispatching.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2",
+    "react": "^17.0.2",
+    "@types/react": "^17.0.40"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
