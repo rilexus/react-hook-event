@@ -33,7 +33,6 @@ class Emitter {
             this.listeners[type].push(callback);
             return;
         }
-        console.log(callback);
         this.listeners = { ...this.listeners, [type]: [callback] };
     }
 

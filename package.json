@@ -1,10 +1,24 @@
 {
   "name": "react-hook-event",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Utility hooks for event dispatching.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rilexus/react-hook-event"
+  },
+  "keywords": [
+    "react",
+    "event",
+    "hook",
+    "react-hook-event"
+  ],
+  "bugs": {
+    "url": "https://github.com/rilexus/react-hook-event"
   },
   "devDependencies": {
     "typescript": "^4.6.2",
